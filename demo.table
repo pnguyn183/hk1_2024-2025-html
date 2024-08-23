@@ -1,0 +1,83 @@
+!
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0px auto;
+            padding: 0px;
+        }
+        
+        .wraper {
+            width: 1089px;
+            height: 800px;
+            margin: 0 auto;
+            background-color: aliceblue;
+            border: 1px solid brown;
+        }
+        
+        .top-menu {
+            width: 1089px;
+            height: 60px;
+            margin: 0 auto;
+            background-color: rgb(147, 183, 214);
+        }
+        
+        header {
+            width: 1089px;
+            height: 150px;
+            margin: 0 auto;
+            background-color: rgb(228, 240, 120);
+        }
+        
+        .content {
+            width: 1089px;
+            height: 700px;
+            margin: 0 auto;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid brown;
+            overflow: hidden;
+        }
+        
+        .menu-left {
+            width: 289px;
+            height: 700px;
+            background-color: aquamarine;
+            float: left;
+        }
+        
+        .content-left {
+            width: 500px;
+            height: 800px;
+            background-color: rgb(160, 170, 167);
+            float: left;
+        }
+        
+        .content-ri {
+            width: 400px;
+            height: 700px;
+            background-color: rgb(230, 67, 141);
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wraper">
+        <div class="top-menu">menu</div>
+        <header>đầu trang</header>
+        <div class="content">
+            <div class="menu-left">menu trái</div>
+            <div class="content-left">nội dung trái</div>
+            <div class="content-ri">nội dung phải</div>
+
+        </div>
+        <footer>chân trang</footer>
+    </div>
+</body>
+
+</html>
